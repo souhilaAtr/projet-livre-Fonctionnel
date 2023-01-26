@@ -1,0 +1,60 @@
+<?php //App_Entity_Livres
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Livres',
+                'id',
+                'titre',
+                'prix',
+                'auteur',
+                'tome',
+                'serie',
+                'isbn',
+                'quantite',
+                'tarif',
+                'etat',
+                'pervers',
+                'image',
+                'genres',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'titre' => $o[2],
+                    'prix' => $o[3],
+                    'auteur' => $o[4],
+                    'tome' => $o[5],
+                    'serie' => $o[6],
+                    'isbn' => $o[7],
+                    'quantite' => $o[8],
+                    'tarif' => $o[9],
+                    'etat' => $o[10],
+                    'pervers' => $o[11],
+                    'image' => $o[12],
+                    'genres' => $o[13],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

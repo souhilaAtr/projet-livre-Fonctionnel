@@ -1,0 +1,98 @@
+<?php //32364755d6280674391ab276f750cae8
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Query\\ParserResult'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\ParserResult')),
+        clone ($p['Doctrine\\ORM\\Query\\Exec\\SingleSelectExecutor'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\Exec\\SingleSelectExecutor')),
+        clone ($p['Doctrine\\ORM\\Query\\ResultSetMapping'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\ResultSetMapping')),
+    ],
+    null,
+    [
+        'Doctrine\\ORM\\Query\\ParserResult' => [
+            '_sqlExecutor' => [
+                $o[1],
+            ],
+            '_resultSetMapping' => [
+                $o[2],
+            ],
+            '_parameterMappings' => [
+                [
+                    'query' => [
+                        0,
+                        1,
+                    ],
+                ],
+            ],
+        ],
+        'Doctrine\\ORM\\Query\\Exec\\AbstractSqlExecutor' => [
+            '_sqlStatements' => [
+                1 => 'SELECT l0_.id AS id_0, l0_.titre AS titre_1, l0_.prix AS prix_2, l0_.auteur AS auteur_3, l0_.tome AS tome_4, l0_.serie AS serie_5, l0_.isbn AS isbn_6, l0_.quantite AS quantite_7, l0_.tarif AS tarif_8, l0_.etat AS etat_9, l0_.pervers AS pervers_10, l0_.image AS image_11, l0_.genres AS genres_12 FROM livres l0_ WHERE l0_.titre LIKE ? OR l0_.auteur LIKE ?',
+            ],
+        ],
+        'stdClass' => [
+            'aliasMap' => [
+                2 => [
+                    'search' => 'App\\Entity\\Livres',
+                ],
+            ],
+            'fieldMappings' => [
+                2 => [
+                    'id_0' => 'id',
+                    'titre_1' => 'titre',
+                    'prix_2' => 'prix',
+                    'auteur_3' => 'auteur',
+                    'tome_4' => 'tome',
+                    'serie_5' => 'serie',
+                    'isbn_6' => 'isbn',
+                    'quantite_7' => 'quantite',
+                    'tarif_8' => 'tarif',
+                    'etat_9' => 'etat',
+                    'pervers_10' => 'pervers',
+                    'image_11' => 'image',
+                    'genres_12' => 'genres',
+                ],
+            ],
+            'entityMappings' => [
+                2 => [
+                    'search' => null,
+                ],
+            ],
+            'columnOwnerMap' => [
+                2 => [
+                    'id_0' => 'search',
+                    'titre_1' => 'search',
+                    'prix_2' => 'search',
+                    'auteur_3' => 'search',
+                    'tome_4' => 'search',
+                    'serie_5' => 'search',
+                    'isbn_6' => 'search',
+                    'quantite_7' => 'search',
+                    'tarif_8' => 'search',
+                    'etat_9' => 'search',
+                    'pervers_10' => 'search',
+                    'image_11' => 'search',
+                    'genres_12' => 'search',
+                ],
+            ],
+            'declaringClasses' => [
+                2 => [
+                    'id_0' => 'App\\Entity\\Livres',
+                    'titre_1' => 'App\\Entity\\Livres',
+                    'prix_2' => 'App\\Entity\\Livres',
+                    'auteur_3' => 'App\\Entity\\Livres',
+                    'tome_4' => 'App\\Entity\\Livres',
+                    'serie_5' => 'App\\Entity\\Livres',
+                    'isbn_6' => 'App\\Entity\\Livres',
+                    'quantite_7' => 'App\\Entity\\Livres',
+                    'tarif_8' => 'App\\Entity\\Livres',
+                    'etat_9' => 'App\\Entity\\Livres',
+                    'pervers_10' => 'App\\Entity\\Livres',
+                    'image_11' => 'App\\Entity\\Livres',
+                    'genres_12' => 'App\\Entity\\Livres',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];
